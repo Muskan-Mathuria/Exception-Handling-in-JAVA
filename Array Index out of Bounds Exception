@@ -1,0 +1,12 @@
+public class Program2 {
+    public static void main(String[] args) {
+        try {
+            int [] numbers = {30,40,50};
+            System.out.println(numbers[5]);
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.out.println(e);
+        }finally {
+            System.out.println("finally");
+        }
+    }
+}
