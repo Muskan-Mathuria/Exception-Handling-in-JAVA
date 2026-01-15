@@ -1,0 +1,21 @@
+import java.util.*;
+public class Positive {
+    static void main(String[] args) {
+        System.out.println("Enter the no.");
+        Scanner input = new Scanner(System.in);
+
+        try{
+            int num = input.nextInt();
+            if(num>0) {
+                System.out.println("Positive number");
+            }else if (num<0) {
+                System.out.println("Negative number");
+            } else{
+                System.out.println("Invalid number");
+            }
+                }catch (Exception e){
+            System.out.println("Invalid input");
+            }
+        }
+    }
+
